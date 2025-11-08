@@ -94,7 +94,7 @@ class MathQuiz: # Everything the game does lives in this class
         
         canvas.create_text(512, 150, text="DIFFICULTY LEVEL", font=("Courier", 24, "bold"), fill="white")
         
-        # Properly centered buttons (1024/2 = 512, button width ~240, so start at 512-120=392)
+        
         tk.Button(canvas, text="EASY", font=("Courier", 16, "bold"), bg="white", fg="black",
                  command=lambda: self.startQuiz(1), width=18, height=2, bd=3).place(x=392, y=220)
         tk.Button(canvas, text="MEDIUM", font=("Courier", 16, "bold"), bg="white", fg="black",
